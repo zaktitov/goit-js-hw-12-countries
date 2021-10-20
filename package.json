@@ -23,6 +23,8 @@
   "homepage": "https://zaktitov.github.io/goit-js-hw-12-countries",
   "dependencies": {
     "gh-pages": "^3.2.3",
+    "lod": "^0.1.0",
+    "lodash.debounce": "^4.0.8",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "posthtml-include": "^1.7.2"
   },
