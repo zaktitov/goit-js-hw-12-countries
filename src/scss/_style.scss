@@ -2,6 +2,27 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
+span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.language {
+  margin: 0;
+}
+
+.languages__list {
+  padding-left: 5px;
+  display: inline-block;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -25,4 +46,9 @@ body {
   background-color: transparent;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.country__item:nth-child(3){
+  display: flex;
+  align-items: flex-start;
 }

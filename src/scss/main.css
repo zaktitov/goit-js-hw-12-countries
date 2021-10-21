@@ -2,6 +2,28 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
+span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.language {
+  margin: 0;
+}
+
+.languages__list {
+  padding-left: 5px;
+  display: inline-block;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,5 +55,14 @@ body {
   background-color: transparent;
   text-align: center;
   margin-bottom: 5px;
+}
+
+.country__item:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 /*# sourceMappingURL=main.css.map */
