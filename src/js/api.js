@@ -16,6 +16,8 @@ function onSearch(e) {
     API.fetchCountries(searchQuery)
       .then(countryCard)
       .catch((error) => console.log(error));
+  } else {
+    ul.innerHTML && article.innerHTML === "";
   }
 }
 
